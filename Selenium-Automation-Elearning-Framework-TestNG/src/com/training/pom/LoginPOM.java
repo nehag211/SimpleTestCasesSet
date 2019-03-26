@@ -19,7 +19,7 @@ public class LoginPOM {
 	@FindBy(id = "password")
 	private WebElement password;
 
-	@FindBy(id = "formLogin_submitAuth")
+	@FindBy(id = "form-login_submitAuth")
 	private WebElement loginBtn;
 	
 	@FindBy(xpath = "//div[@class=\"normal-message\"]/p")
